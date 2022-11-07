@@ -6,9 +6,9 @@ const router = Router();
 
 //Rutas del Servidor
 router.get('/', (req, res) => {
-    console.log('Dale que Sirve')
-    res.send('100/100')
-})
+    console.log('Dale que Sirve');
+    res.send('100/100');
+});
 
 //Exportar Rutas
-module.exports = router
+module.exports = router;

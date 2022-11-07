@@ -1,8 +1,8 @@
 <template>
-  <div class="home">
+  <section class="home">
     <img alt="Vue logo" src="../assets/logo.png">
     <HelloWorld msg="ViralShop Page [In Process]"/>
-  </div>
+  </section>
 </template>
 
 <script>
