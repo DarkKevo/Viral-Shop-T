@@ -11,8 +11,7 @@
         <div class="navbar-nav">
           <router-link to="/" class="nav-link active" aria-current="page">Inicio</router-link> 
           <a class="nav-link" href="#">¿Quienes Somos?</a>
-          <router-link class="nav-link" to="/computadoras">Computadoras</router-link>
-          <router-link class="nav-link" to="/telefonos">Telefonos</router-link>
+          <a class="nav-link" href="#">Nuestros Productos</a>
           <a class="nav-link" href="#">Mas Vendido</a>
           <a class="nav-link" href="#">Sucursales</a>
         </div>
