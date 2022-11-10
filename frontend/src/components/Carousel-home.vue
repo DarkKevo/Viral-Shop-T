@@ -48,6 +48,7 @@ export default {
   name: 'carousel',
 }
 </script>
+
 <style scoped>
 .carousel-item img {
   height: 93vh;
