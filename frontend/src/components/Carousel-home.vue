@@ -51,7 +51,7 @@ export default {
 
 <style scoped>
 .carousel-item img {
-  height: 93vh;
+  height: 100vh;
   object-fit: cover;
   object-position: center;
 }

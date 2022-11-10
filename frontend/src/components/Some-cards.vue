@@ -1,28 +1,29 @@
 <template>
     <div style="background-color: #06283D" id="container-de-las-cards">
       <div class="text-center pt-5">
-        <h1>El Titulo</h1>  
+        <h1>¿Quienes Somos?</h1>  
       </div>
       <div class="p-4 d-flex  justify-content-evenly" id="container-card">
         <!-- 1 -->
-        <div class="card" style="width: 18rem;">
+        <div class="card bg-dark" style="width: 18rem;">
           <img class="card-img-top" src="https://www.65ymas.com/uploads/s1/40/63/3/bigstock-koh-samui-thailand-january-228584263_1_621x621.jpeg">
           <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text">Compartimos nuevas tecnologias</p>
           </div>
         </div>
       <!-- 2 -->
-      <div class="card" style="width: 18rem;">
+      <div class="card bg-dark" style="width: 18rem;">
         <img class="card-img-top" src="https://www.65ymas.com/uploads/s1/40/63/3/bigstock-koh-samui-thailand-january-228584263_1_621x621.jpeg">
       <div class="card-body">
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <p class="card-text">Desde celuares hasta computadoras de todas las marcas</p>
       </div>
       </div>
       <!-- 3 -->
-      <div class="card" style="width: 18rem;">
+      <div class="card bg-dark" style="width: 18rem;">
         <img class="card-img-top" src="https://www.65ymas.com/uploads/s1/40/63/3/bigstock-koh-samui-thailand-january-228584263_1_621x621.jpeg">
       <div class="card-body">
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <p class="card-text">Con los mejores precios del mercado
+</p>
       </div>
       </div>
       </div>
@@ -54,6 +55,17 @@ img {
 
 #container-de-las-cards {
   height: 100vh;
+}
+
+h1, p{
+  color:#DFF6FF;
+  font-family: Ubuntu;
+}
+h1{
+  margin-bottom: 4rem;;
+}
+p{
+  font-size: 1.5rem;;
 }
 
 </style>

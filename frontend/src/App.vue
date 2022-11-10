@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-dark p-0" style="background-color: #256D85;">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-0" style="background-color: #256D85;">
     <div class="container-fluid">
       <a class="navbar-brand" href="/">
         <img src="./assets/definitivo.png" alt="Logo" width="90" height="40" class="d-inline-block align-text-center">
