@@ -2,8 +2,7 @@
   <nav class="navbar navbar-expand-lg navbar-dark p-0" style="background-color: #256D85;">
     <div class="container-fluid">
       <a class="navbar-brand" href="/">
-        <img src="./assets/pngegg.png" alt="Logo" width="60" height="60" class="d-inline-block align-text-center">
-        ViralShop
+        <img src="./assets/definitivo.png" alt="Logo" width="90" height="40" class="d-inline-block align-text-center">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
