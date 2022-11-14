@@ -72,7 +72,7 @@ p {
     font-family: Ubuntu;
 }
 h1 {
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 }
 p {
     font-size: 1.5rem;

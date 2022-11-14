@@ -30,7 +30,7 @@
         <div class="carousel-inner">
             <div class="carousel-item">
                 <img
-                    src="../assets/image_2022-11-10_13-25-35.png"
+                    src="../assets/photo_2022-11-13_22-42-27.jpg"
                     class="d-block w-100"
                 />
                 <div class="carousel-caption d-none d-md-block">
@@ -39,7 +39,7 @@
             </div>
             <div class="carousel-item active">
                 <img
-                    src="https://primicia.com.ve/wp-content/uploads/2022/07/los-10-sonidos-principales-del-perro.jpg"
+                    src="../assets/photo_2022-11-13_22-44-40.jpg"
                     class="d-block w-100"
                 />
 
@@ -49,7 +49,7 @@
             </div>
             <div class="carousel-item">
                 <img
-                    src="https://estaticos.muyinteresante.es/uploads/images/article/62cfb46c5cafe8b3a50cffb6/perros.populares.jpg"
+                    src="../assets/photo_2022-11-13_22-46-13.jpg"
                     class="d-block w-100"
                 />
 

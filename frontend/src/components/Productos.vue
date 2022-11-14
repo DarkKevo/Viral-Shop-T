@@ -1,10 +1,10 @@
 <template>
-    <div class="contenedor-de-productos">
-        <div>
-            <h1>Computadoras</h1>
+    <div class="contenedor-de-productos d-flex flex-row">
+        <div class="d-flex align-items-center justify-content-center">
+            <h1 class="">Computadoras</h1>
             <img src="" alt="" />
         </div>
-        <div>
+        <div class="d-flex align-items-center justify-content-center">
             <h1>Celulares</h1>
             <img src="" alt="" />
         </div>
@@ -17,4 +17,17 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped>
+
+.contenedor-de-productos div{
+    width: 50%;
+    height: 100vh;
+    background-color: beige;
+    border: 3px solid black;
+}
+
+h1{
+    color: #dff6ff;
+    font-family: Ubuntu;
+}
+</style>
