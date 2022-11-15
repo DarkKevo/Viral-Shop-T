@@ -1,6 +1,6 @@
 <template>
     <div class="principal-div p-5">
-        <h1 class="m-5">Producto mas vendido del mes</h1>
+        <h1 class="m-3">Producto mas vendido del mes</h1>
         <div class="d-flex w-100 p-3">
             <div class="w-50 p-3 d-flex flex-column align-items-center justify-content-center fs-4">
                 <h3>Samsung Notebook Flash</h3>

@@ -1,12 +1,12 @@
 <template>
     <div class="contenedor-de-productos d-flex flex-row">
-        <div class="d-flex align-items-center justify-content-center">
+        <div class="d-flex flex-column align-items-center justify-content-center">
             <h1 class="">Computadoras</h1>
-            <img src="" alt="" />
+            <img src="../assets/WhatsApp_Image_2022-11-14_at_8.05.37_PM-removebg-preview.png" alt="" />
         </div>
-        <div class="d-flex align-items-center justify-content-center">
+        <div class="d-flex flex-column align-items-center justify-content-center">
             <h1>Celulares</h1>
-            <img src="" alt="" />
+            <img src="../assets/WhatsApp_Image_2022-11-14_at_8.05.38_PM-removebg-preview.png" alt="" />
         </div>
     </div>
 </template>
@@ -22,7 +22,7 @@ export default {
 .contenedor-de-productos div{
     width: 50%;
     height: 100vh;
-    background-color: beige;
+    background-color: #256D85;
     border: 3px solid black;
 }
 
