@@ -54,7 +54,7 @@
                 />
 
                 <div class="carousel-caption d-none d-md-block">
-                    <h1>!Te esperamos¡</h1>
+                    <h1>¡Te esperamos!</h1>
                 </div>
             </div>
         </div>
