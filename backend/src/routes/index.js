@@ -5,9 +5,10 @@ const { Router } = require('express');
 const router = Router();
 
 //Rutas del Servidor
-router.get('/', (req, res) => {
-    console.log('Dale que Sirve');
-    res.send('100/100');
+router.post('/lead', (req, res) => {
+   let obj = JSON.parse(req.body)
+   console.log(obj)
+   res.send('recibido')
 });
 
 //Exportar Rutas

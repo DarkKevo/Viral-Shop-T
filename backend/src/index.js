@@ -13,6 +13,9 @@ require('./database');
 //Middleware CORS
 app.use(cors());
 
+//json
+app.use(express.json());
+
 //Requerir el Enrutador de Express
 let rutas = require('./routes/index.js');
 
