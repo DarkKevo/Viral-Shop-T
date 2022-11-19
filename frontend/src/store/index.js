@@ -12,18 +12,21 @@ export default createStore({
     getters: {},
     mutations: {
         enviar(state) {
-            axios
-                .post('http://localhost:3000/lead', {
-                    nombre: state.nombre,
-                    correo: state.correo,
-                    telefono: state.telefono,
-                })
-                .then(function (response) {
-                    console.log(response);
-                })
-                .catch(function (error) {
-                    console.log(error);
-                });
+            let data = {
+                nombre: state.formData.nombre,
+                telefono: state.formData.telefono,
+                correo: state.formData.correo,
+            };
+
+            let dataJSON = JSON.stringify(data);
+
+            fetch('http://localhost:3000/lead', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json;charset=UTF-8' },
+                body: dataJSON,
+            })
+                .then((res) => console.log(res))
+                .catch((err) => console.log(err));
         },
     },
     actions: {},

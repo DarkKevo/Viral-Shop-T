@@ -4,7 +4,7 @@ const { Schema, model } = require('mongoose');
 //Contruccion del Schema de Guardado
 const leads_schema = new Schema({
     nombre: String,
-    email: String,
+    correo: String,
     telefono: Number,
 });
 
