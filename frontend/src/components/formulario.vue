@@ -72,4 +72,13 @@ export default {
     width: 100%;
     height: 100vh;
 }
+
+@media (max-width: 360px) {
+
+    .principal-div{
+        flex-direction: column;
+    }
+    
+}
+
 </style>
