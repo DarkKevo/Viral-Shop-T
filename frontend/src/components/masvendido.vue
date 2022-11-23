@@ -4,7 +4,7 @@
         <div class="d-flex w-100 p-3 respon">
             <div class="p-3 d-flex flex-column align-items-center justify-content-center fs-4 div2">
                 <h3>Samsung Notebook Flash</h3>
-                <img class="w-50 p-3 m-2 border border-dark border-3 rounded imgRes" src="../assets/sams.jpg"
+                <img class="p-3 m-2 border border-dark border-3 rounded imgRes" src="../assets/sams.jpg"
                     alt="computadora">
                 <ul class="nav flex-column">
                     <li>Giga-bit Wifi</li>
@@ -42,6 +42,10 @@ export default {
     width: 50%;
 }
 
+.imgRes{
+    width: 50%;
+}
+
 .video{
     width: 50%;
 }
@@ -57,6 +61,20 @@ export default {
     .video iframe{
         width: 80%;
         height: 80%;
+    }
+}
+
+@media(max-width:820px){
+    .respon{
+        flex-direction: column;
+        justify-content: cemter;
+        align-items: center;
+    }   
+    .imgRes{
+        width: 100% ;
+    }
+    .video iframe{
+        height: 400px;
     }
 }
 @media (max-width: 360px) {

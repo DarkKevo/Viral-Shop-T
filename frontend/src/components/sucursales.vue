@@ -49,6 +49,7 @@ export default {
     background-color: #D9D9D9;
 }
 .divR{
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 .card{
@@ -59,7 +60,17 @@ export default {
 img{
     height: 50%;
 }
-
+@media(max-width:1024px){
+    .card{
+        width: 15rem;
+    }
+}
+@media(max-width:820px){
+    .card{
+        width: 20rem;
+        height: 40%;
+    }
+}
 @media (max-width:360px) {
     
     .divR{

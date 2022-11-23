@@ -1,6 +1,6 @@
 <template>
     <div class="principal-div d-flex align-items-center">
-        <img class="w-30 h-50" src="../assets/pexels-yan-krukov-8867474.jpg" alt="" />
+        <img  src="../assets/pexels-yan-krukov-8867474.jpg" alt="" />
 
         <form id="form-lead" class="d-flex flex-column p-2 formulario"
             @submit.prevent="onSubmit">
@@ -51,6 +51,11 @@ export default {
     height: 100vh;
 }
 
+img{
+    height: 50%;
+    width: 30%;
+}
+
 .formulario {
     justify-content: space-between;
     height: 50%;
@@ -63,7 +68,19 @@ export default {
         justify-content: space-evenly;
     }
 }
-
+@media(max-width:820px){
+    .principal-div{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .formulario{
+        height: 50%;
+    }
+    img{
+        height: 30%;
+        width: 50%;
+    }
+}
 @media (max-width: 360px) {
     img {
         display: none;

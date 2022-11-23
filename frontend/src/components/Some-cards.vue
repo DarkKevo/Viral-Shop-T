@@ -81,7 +81,6 @@ p {
     }
 
 }
-
 @media (max-width:360px) {
     h1 {
         margin: 0;
