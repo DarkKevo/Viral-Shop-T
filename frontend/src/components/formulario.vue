@@ -57,6 +57,13 @@ export default {
     width: 50%;
 }
 
+@media(max-width:1024px){
+    .formulario{
+        height: 100%;
+        justify-content: space-evenly;
+    }
+}
+
 @media (max-width: 360px) {
     img {
         display: none;

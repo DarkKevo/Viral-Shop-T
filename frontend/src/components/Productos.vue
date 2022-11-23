@@ -30,6 +30,12 @@ h1{
     font-family: Ubuntu;
 }
 
+@media (max-width:1024px) {
+    .contenedor-de-productos div img{
+        width: 70%;
+    }
+}
+
 @media(max-width:360px){
     .contenedor-de-productos{
         flex-direction: column;

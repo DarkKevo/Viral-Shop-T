@@ -66,21 +66,31 @@ p {
     color: #dff6ff;
     font-family: Ubuntu;
 }
+
 h1 {
     margin-bottom: 2rem;
 }
+
 p {
     font-size: 1.5rem;
 }
 
+@media (max-width:1024px) {
+    .card {
+        width: 15rem;
+    }
+
+}
+
 @media (max-width:360px) {
-    h1{
+    h1 {
         margin: 0;
     }
+
     .card {
         width: 12rem;
-        margin:0;
-        margin-top:10px;
+        margin: 0;
+        margin-top: 10px;
     }
 
     img {

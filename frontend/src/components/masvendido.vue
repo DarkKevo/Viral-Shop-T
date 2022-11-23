@@ -45,6 +45,20 @@ export default {
 .video{
     width: 50%;
 }
+
+@media(max-width:1024px){
+    .video{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .video iframe{
+        width: 80%;
+        height: 80%;
+    }
+}
 @media (max-width: 360px) {
     .principal-div{
         padding: 3%;
