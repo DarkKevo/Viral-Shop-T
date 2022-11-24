@@ -1,8 +1,9 @@
 //Requerimiento del Router de Express
 const { Router } = require('express');
 
-//Requeriniento del Modelo de Mongo de LeadsSchema
+//Requerimiento del Modelo de Mongo de LeadsSchema
 const lead = require('../models/leads');
+const telefono = require('../models/phones');
 
 //Instancia de Funcion
 const router = Router();
@@ -20,6 +21,11 @@ router.post('/lead', async (req, res) => {
     });
     res.send('Recibido y guardado');
 });
+
+router.get('/telefonos', async (req, res) => {
+    const telefonos_lista = await telefono.find()
+    res.json(telefonos_lista);
+})
 
 //Exportar Rutas
 module.exports = router;
