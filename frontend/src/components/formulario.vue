@@ -81,7 +81,7 @@ img{
         width: 50%;
     }
 }
-@media (max-width: 360px) {
+@media (max-width: 414px) {
     img {
         display: none;
     }

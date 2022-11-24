@@ -36,7 +36,7 @@ h1{
     }
 }
 
-@media(max-width:360px){
+@media(max-width:414px){
     .contenedor-de-productos{
         flex-direction: column;
         height: 100vh;

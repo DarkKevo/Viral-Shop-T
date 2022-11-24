@@ -77,12 +77,12 @@ export default {
         height: 400px;
     }
 }
-@media (max-width: 360px) {
+@media (max-width: 414px) {
     .principal-div{
         padding: 3%;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
     }
     .div2 {
@@ -90,7 +90,7 @@ export default {
     }
 
     .imgRes {
-        display: none;
+        width: 45%;
     }
     
     .respon {
@@ -103,7 +103,7 @@ export default {
 
     .video{
         width: 100%;
-        height: 10%;
+        height: 50%;
     }
     .video iframe{
         height: 200px;

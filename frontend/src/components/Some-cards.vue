@@ -3,7 +3,7 @@
         <div class="text-center pt-5">
             <h1>¿Quienes Somos?</h1>
         </div>
-        <div class="p-4 d-flex justify-content-evenly" id="container-card">
+        <div class="p-4 d-flex" id="container-card">
             <!-- 1 -->
             <div class="card bg-dark">
                 <img class="card-img-top"
@@ -43,6 +43,7 @@ export default {
 <style scoped>
 #container-card {
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 img {
@@ -81,13 +82,14 @@ p {
     }
 
 }
-@media (max-width:360px) {
+
+@media (max-width:414px) {
     h1 {
         margin: 0;
     }
 
     .card {
-        width: 12rem;
+        width: 18rem;
         margin: 0;
         margin-top: 10px;
     }

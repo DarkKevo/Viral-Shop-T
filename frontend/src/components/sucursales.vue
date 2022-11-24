@@ -71,7 +71,7 @@ img{
         height: 40%;
     }
 }
-@media (max-width:360px) {
+@media (max-width:414px) {
     
     .divR{
         flex-direction: column;
