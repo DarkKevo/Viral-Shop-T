@@ -48,7 +48,8 @@ export default {
     color: #dff6ff;
     background-color: #06283d;
     width: 100%;
-    height: 100vh;
+    height: 100%;
+    padding: 2%;
 }
 
 img{

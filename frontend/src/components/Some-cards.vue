@@ -41,6 +41,7 @@ export default {
 </script>
 
 <style scoped>
+
 #container-card {
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -58,9 +59,6 @@ img {
     margin-right: 1.5rem;
 }
 
-#container-de-las-cards {
-    height: 100vh;
-}
 
 h1,
 p {

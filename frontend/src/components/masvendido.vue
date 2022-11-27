@@ -35,7 +35,7 @@ export default {
     color: #DFF6FF;
     background-color: #256D85;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     padding: 5%;
 }
 .div2 {

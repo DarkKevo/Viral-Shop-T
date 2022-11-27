@@ -3,7 +3,7 @@
         <h1>Sucursales</h1>
         <div class="w-100 h-100 d-flex align-items-center divR">
             <div class="card d-inline-block colores border border-dark border-4 p-3">
-                <img src="../assets/photo_2022-11-14_11-44-46.jpg" class="card-img-top " alt="">
+                <img src="../assets/photo_2022-11-14_11-44-46.jpg" class="card-img-top " style="max-height:210px;" alt="">
                 <div class="card-body">
                     <h5 class="card-title fs-4">ViralShop Valera</h5>
                     <p class="card-text fs-5"> <i class="fa-solid fa-magnifying-glass-location"></i> Av 5, Ubicados en
@@ -11,7 +11,7 @@
                 </div>
             </div>
             <div class="card d-inline-block colores border border-dark border-4 p-3">
-                <img src="../assets/photo_2022-11-13_22-46-13.jpg" class="card-img-top " alt="">
+                <img src="../assets/photo_2022-11-13_22-46-13.jpg" class="card-img-top" style="max-height:210px;" alt="">
                 <div class="card-body">
                     <h5 class="card-title fs-4">ViralShop Valera</h5>
                     <p class="card-text fs-5"> <i class="fa-solid fa-magnifying-glass-location"></i> Av 5, Ubicados en
@@ -42,7 +42,7 @@ export default {
     color: #DFF6FF;
     background-color: #06283D;
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 .colores {
     color: black;
