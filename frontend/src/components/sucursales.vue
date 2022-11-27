@@ -89,4 +89,10 @@ img{
         display: none;
     }
 }
+
+@media(max-width:290px){
+    .card{
+        width: 13rem;
+    }
+}
 </style>
