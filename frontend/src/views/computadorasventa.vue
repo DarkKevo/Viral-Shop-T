@@ -48,7 +48,7 @@ export default {
     },
     methods: {
         async getPhones() {
-            const res = await axios.get('http://localhost:3000/telefonos');
+            const res = await axios.get('http://localhost:3000/computadoras');
             this.articles = res.data;
         },
     },
