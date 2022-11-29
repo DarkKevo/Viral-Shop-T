@@ -1,5 +1,5 @@
 <template>
-    <div class="contenedor-de-productos d-flex">
+    <div id="catalogo" class="contenedor-de-productos d-flex">
         <div
             class="d-flex flex-column align-items-center justify-content-center"
         >

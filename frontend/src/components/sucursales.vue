@@ -1,5 +1,5 @@
 <template>
-    <div class="principal-div p-5">
+    <div id="sucursales" class="principal-div p-5">
         <h1>Sucursales</h1>
         <div class="w-100 h-100 d-flex align-items-center divR">
             <div class="card d-inline-block colores border border-dark border-4 p-3">
