@@ -10,10 +10,10 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
           <router-link to="/" class="nav-link active" aria-current="page">Inicio</router-link> 
-          <a class="nav-link" href="#">¿Quienes Somos?</a>
-          <a class="nav-link" href="#">Nuestros Productos</a>
-          <a class="nav-link" href="#">Mas Vendido</a>
-          <a class="nav-link" href="#">Sucursales</a>
+          <a class="nav-link" href="#container-de-las-cards">¿Quienes Somos?</a>
+          <a class="nav-link" href="#catalogo">Nuestros Productos</a>
+          <a class="nav-link" href="#vendidos">Mas Vendido</a>
+          <a class="nav-link" href="#sucursales">Sucursales</a>
         </div>
       </div>
     </div>

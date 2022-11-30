@@ -1,5 +1,5 @@
 <template>
-    <div class="principal-div">
+    <div id="vendidos" class="principal-div">
         <h1 class="m-3">Producto mas vendido del mes</h1>
         <div class="d-flex w-100 p-3 respon">
             <div class="p-3 d-flex flex-column align-items-center justify-content-center fs-4 div2">
