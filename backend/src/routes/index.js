@@ -23,15 +23,43 @@ router.post('/lead', async (req, res) => {
     res.send('Recibido y guardado');
 });
 
+router.post('/telefonoAdd', async (req, res) => {
+    const { titulo, description, precio, url } = req.body;
+    const phone_save = new telefono({
+        titulo: titulo,
+        descripcion: description,
+        precio: precio,
+        img_url: url,
+    });
+    phone_save.save().then((res) => {
+        console.log(res);
+    });
+    res.send('Recibido y Guardado');
+});
+
+router.post('/computadoraAdd', async (req, res) => {
+    const { titulo, description, precio, url } = req.body;
+    const computadora_save = new computadoras({
+        titulo: titulo,
+        descripcion: description,
+        precio: precio,
+        img_url: url,
+    });
+    computadora_save.save().then((res) => {
+        console.log(res);
+    });
+    res.send('Recibido y Guardado');
+});
+
 router.get('/telefonos', async (req, res) => {
-    const telefonos_lista = await telefono.find()
+    const telefonos_lista = await telefono.find();
     res.json(telefonos_lista);
-})
+});
 
 router.get('/computadoras', async (req, res) => {
-    const computadoras_lista = await computadoras.find()
+    const computadoras_lista = await computadoras.find();
     res.json(computadoras_lista);
-})
+});
 
 //Exportar Rutas
 module.exports = router;

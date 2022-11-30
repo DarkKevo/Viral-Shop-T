@@ -11,7 +11,7 @@ export default createStore({
     },
     getters: {},
     mutations: {
-        enviar(state) {
+        async enviar(state) {
             let data = {
                 nombre: state.formData.nombre,
                 telefono: state.formData.telefono,
@@ -20,13 +20,19 @@ export default createStore({
 
             let dataJSON = JSON.stringify(data);
 
-            fetch('http://localhost:3000/lead', {
+            await fetch('http://localhost:3000/lead', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json;charset=UTF-8' },
                 body: dataJSON,
             })
-                .then((res) => console.log(res))
+                .then((res) => {
+                    console.log(res);
+                    alert('Guardado Exitosamente');
+                })
                 .catch((err) => console.log(err));
+            state.formData.nombre = '';
+            state.formData.telefono = '';
+            state.formData.correo = '';
         },
     },
     actions: {},
