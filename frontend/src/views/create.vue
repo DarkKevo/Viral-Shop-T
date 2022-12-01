@@ -1,5 +1,5 @@
 <template>
-    <div class="principal mt-4 p-1">
+    <div class="principal mt-4">
         <div class="form bg-info p-4 rounded" style="--bs-bg-opacity: 0.15">
             <form @submit.prevent="onSubmit">
                 <div class="mb-2">
@@ -188,14 +188,18 @@ export default {
 .principal {
     display: flex;
     text-align: left;
+    min-height: 100vh;
     width: 100%;
     justify-content: space-evenly;
+    align-items: center;
     background-color: rgba(141, 209, 241, 0.377);
-    height: 100vh;
+    height: 100%;
+    padding: 5%;
 }
 .form {
     align-self: center;
     width: 38%;
+    margin-top: 20px;
 }
 .imagenContenedor {
     max-height: 8rem;
@@ -208,5 +212,15 @@ img {
     object-fit: contain;
     width: 100%;
     height: 8rem;
+}
+
+@media(max-width:912px){
+    .principal{
+        flex-direction: column;
+        font-size: 25px;
+    }
+    .form{
+        width: 80%;
+    }
 }
 </style>
